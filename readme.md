@@ -14,8 +14,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) after cloning:
 ```bash
 git clone https://github.com/imadafla/H2_UrbanPlus.git
 cd H2_UrbanPlus
-pip install -e .
-
+pip install numpy pandas
 ```
 
 ## Usage `🚀 Quick Start`
