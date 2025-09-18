@@ -17,7 +17,7 @@ cd H2_UrbanPlus
 pip install numpy pandas
 ```
 
-## Usage `🚀 Quick Start`
+## Usage: `🚀 Quick Start`
 
 ### 1. Import the model
 
