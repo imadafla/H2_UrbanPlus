@@ -22,7 +22,7 @@ pip install numpy pandas
 ### 1. Import the model
 
 ```python
-from h2urbanplus import H2_urbanplus
+from h2_urbanplus import H2_urbanplus
 ```
 
 ### 2. Prepare inputs
