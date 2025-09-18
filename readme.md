@@ -1,6 +1,6 @@
 # H2 UrbanPlus
 
-![H2 UrbanPlus Logo](https://raw.githubusercontent.com/imadafla/H2_UrbanPlus/logo/H2_UrbanPlus.png)
+![H2 UrbanPlus Logo](https://raw.githubusercontent.com/imadafla/H2_UrbanPlus/refs/heads/main/logo/H2_UrbanPlus.png)
 
 H2 UrbanPlus is a Python library for simulating hydrogen-based energy and water recovery systems.  
 It integrates PV generation, electrolysis, hydrogen storage, fuel cells, and water recovery, making it suitable for building and district energy studies.
