@@ -1,6 +1,6 @@
 # H2 UrbanPlus
 
-![H2 UrbanPlus Logo](https://raw.githubusercontent.com/imadafla/H2_UrbanPlus/logo/H2_UrbanPlus.png)
+![H2 UrbanPlus Logo](https://raw.githubusercontent.com/imadafla/H2_UrbanPlus/refs/heads/main/logo/H2_UrbanPlus.png)
 
 H2 UrbanPlus is a Python library for simulating hydrogen-based energy and water recovery systems.  
 It integrates PV generation, electrolysis, hydrogen storage, fuel cells, and water recovery, making it suitable for building and district energy studies.
@@ -14,16 +14,15 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) after cloning:
 ```bash
 git clone https://github.com/imadafla/H2_UrbanPlus.git
 cd H2_UrbanPlus
-pip install -e .
-
+pip install numpy pandas
 ```
 
-## Usage `🚀 Quick Start`
+## Usage: `🚀 Quick Start`
 
 ### 1. Import the model
 
 ```python
-from h2urbanplus import H2_urbanplus
+from h2_urbanplus import H2_urbanplus
 ```
 
 ### 2. Prepare inputs
