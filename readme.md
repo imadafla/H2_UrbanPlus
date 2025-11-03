@@ -70,6 +70,20 @@ print(results.head())
 
 - `Useful_Energy_After_Storage_kWh` – final usable energy after storage
 
+### 4. Customize Model Parameters
+   
+#### Customizing parameters
+```python
+params = {
+    'η_elec': 0.7,   # Example efficiency for electrolyzer
+    'η_fc': 0.6,     # Example efficiency for fuel cell
+    'P_elec_max': 100, # Max power for electrolyzer in kW
+    'P_fc_max': 100,   # Max power for fuel cell in kW
+    'H2_tank_max': 1000 # Hydrogen tank size in kg
+}
+
+results = H2_urbanplus(df_demand, df_pv, df_pv_w, params=params)
+```
 
 ## 🔗 EnergyPlus Coupling Guidelines
 ### 1- PV Integration
