@@ -70,7 +70,7 @@ print(results.head())
 
 - `Useful_Energy_After_Storage_kWh` – final usable energy after storage
 
-### 4. Customize Model Parameters
+### 5. Customize Model Parameters
    
 #### Customizing parameters
 ```python
